@@ -56,9 +56,9 @@ fun main(args: Array<String>) {
 
 
     //Fase Array
-    var stringOfString = arrayOf(nombre,apellido, "Ocampo", "Eljaiek")
-    var arrayOfInt = intArrayOf(1,2,3,4,5,6,7,8,9,10)
-    var arrayBoolenas = booleanArrayOf(true, false, true)
+    val stringOfString = arrayOf(nombre,apellido, "Ocampo", "Eljaiek")
+    val arrayOfInt = intArrayOf(1,2,3,4,5,6,7,8,9,10)
+    val arrayBoolenas = booleanArrayOf(true, false, true)
 
     //print(stringOfString.get(index = 0))
     //print(arrayOfInt.get(index = 5))
@@ -82,6 +82,16 @@ fun main(args: Array<String>) {
     for (c_valor in arrayBoolenas){
         print(c_valor.toString() + "\n")
     }
+
+
+    //While Ciclos
+    var i = 0
+    while (i < stringOfString.size){
+        print(stringOfString[i])
+        i += 1
+    }
+
+
 
 }
 
